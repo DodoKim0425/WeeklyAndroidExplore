@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/text_view_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="빈상태" />
+    <TextView
+        android:id="@+id/text_view_int_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-1"/>
+    <Button
+        android:id="@+id/button_go_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b로 이동"/>
+    <Button
+        android:id="@+id/button_go_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c로 이동"/>
+    <Button
+        android:id="@+id/button_go_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d로 이동"/>
+    <TextView
+        android:id="@+id/text_view_back_stack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="빈상태" />
+    <Button
+        android:id="@+id/button_go_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="f로 이동"/>
+</LinearLayout>
